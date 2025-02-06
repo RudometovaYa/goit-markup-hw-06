@@ -44,18 +44,79 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg class="mobile-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <a class="mobile-nav-link current" href="./index.html">Studio</a>
+            <a class="mobile-nav-link" href="">Portfolio</a>
+            <a class="mobile-nav-link" href="">Contacts</a>
+          </nav>
+          <address class="mobile-address">
+            <a class="mobile-address-link current" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+            <a class="mobile-address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </address>
+          <div class="mobile-social-list">
+            <ul class="socialmedia-list">
+              <li class="socialmedia-item">
+                <a href="" class="socialmedia-link">
+                  <svg class="icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socialmedia-item">
+                <a href="" class="socialmedia-link">
+                  <svg class="icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socialmedia-item">
+                <a href="" class="socialmedia-link">
+                  <svg class="icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socialmedia-item">
+                <a href="" class="socialmedia-link">
+                  <svg class="icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="main">
+      <section class="main hidden">
         <div class="container main-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="main-button" type="button">Order Service</button>
         </div>
       </section>
 
-      <section class="benefits padding-container">
+      <section class="benefits padding-container hidden">
         <div class="container">
           <h2 class="subtitle visually-hidden">Feature</h2>
           <ul class="benefits-list">
@@ -111,7 +172,7 @@
         </div>
       </section>
 
-      <section class="team padding-container">
+      <section class="team padding-container hidden">
         <div class="container">
           <h2 class="subtitle padding-subtitle">Our Team</h2>
           <ul class="team-list">
@@ -287,7 +348,7 @@
         </div>
       </section>
 
-      <section class="portfolio padding-container">
+      <section class="portfolio padding-container hidden">
         <div class="container">
           <h2 class="subtitle margin-subtitle">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -404,7 +465,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-wrap">
         <div class="footer-info">
           <a class="nav-logo nav-logo-footer" href="./index.html"
@@ -473,7 +534,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop hidden">
       <div class="modal">
         <button class="modal-close" type="button">
           <svg class="modal-close-icon" width="8" height="8">
