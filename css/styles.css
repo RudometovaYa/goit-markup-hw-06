@@ -456,7 +456,7 @@ button {
     }
 
     .benefits-list {
-       display: flexbox;
+       display: flex;
        justify-content: space-between;
        gap: 24px;
     }
