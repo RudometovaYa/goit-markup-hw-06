@@ -12,6 +12,14 @@ body {
     color: #434455;
 }
 
+.subtitle-mob {
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1.11; 
+    letter-spacing: 0.02em; 
+    color: #2e2f42;
+}
+
 /* Reset */
 
 p,
@@ -315,7 +323,6 @@ button {
 
     margin-bottom: 40px;
 
-    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -336,7 +343,6 @@ button {
 .mobile-address-link {
     display: block;
 
-    font-family: "Roboto", sans-serif;
     color: #434455;
     font-size: 20px;
     font-weight: 500;
@@ -399,3 +405,67 @@ button {
 }
 }
 
+/* Benefits part */
+
+.benefits-icon {
+    display: none;
+}
+
+.padding-container {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    /*justify-content:flex-start;*/
+    align-items: stretch;
+    gap: 72px;
+}
+
+.benefits-item {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.benefits-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.card-title-benefits {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    
+    .container {
+        max-width: 768px;
+    }
+
+
+    
+    .card-title-benefits {
+        text-align: left;
+    }
+
+    .benefits-list {
+        flex-direction: row;
+    
+    
+    }
+    
+    
+    .benefits-item {
+        width: calc((100% - 24px) / 2);
+     }
+
+    /*.benefits-text {
+        width: 100%;
+    }*/
