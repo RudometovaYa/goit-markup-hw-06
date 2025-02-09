@@ -456,11 +456,10 @@ button {
     }
 
     .benefits-list {
-        flex-direction: row;
-    
-    
+       display: flexbox;
+       justify-content: space-between;
+       gap: 24px;
     }
-    
     
     .benefits-item {
         width: calc((100% - 24px) / 2);
